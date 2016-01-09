@@ -38,7 +38,7 @@ Bump version to 1.2
 
 	mvn package
 	cd target
-	java -cp simple-example-1.0.jar training.maven.quick.Application
+	java -cp simple-example-1.2.jar training.maven.quick.Application
 
 ### Dependecy Tree
 
