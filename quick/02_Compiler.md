@@ -7,11 +7,21 @@
 	import java.util.ArrayList;
 	import java.util.List;
 
-**Code:**
+**New Method:**
 
-	List<String> greetings = new ArrayList<>();
-    greetings.add("Hello");
+	public void greet() {
+        List<String> greetings = new ArrayList<>();
+        greetings.add("Hello");
 
+        for (String greeting : greetings) {
+            System.out.println ("Greeting: " + greeting);
+        }
+    }
+
+**Add to Main:**
+
+	app.greet();
+	
 ### pom.xml
 
 **Build:**
