@@ -13,7 +13,16 @@
         return (separateWords == null) ? 0 : separateWords.length;
     }
 
+**Add to Main:**
+
+	int count = app.countWords("I have four words");
+    System.out.println ("Word Count: " + count);
+
 ### pom.xml
+
+**General:**
+
+Bump version to 1.2
 
 **Dependencies:**
 
@@ -28,7 +37,8 @@
 ### Run
 
 	mvn package
-	java -cp target/simple-example.jar training.maven.quick.Application
+	cd target
+	java -cp simple-example-1.0.jar training.maven.quick.Application
 
 ### Dependecy Tree
 

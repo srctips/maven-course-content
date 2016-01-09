@@ -24,6 +24,10 @@
 	
 ### pom.xml
 
+**General:**
+
+Bump version to 1.1
+
 **Build:**
 
 	<build>
@@ -39,8 +43,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+
 
 ### Run
 
 	mvn package
-	java -cp target/simple-example.jar training.maven.quick.Application
+	java -cp target/simple-example-1.1.jar training.maven.quick.Application

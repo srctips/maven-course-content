@@ -6,6 +6,10 @@ See **ApplicationTest.java**
 
 ### pom.xml
 
+**General:**
+
+Bump version to 1.3
+
 **Dependencies:**
 
 	<dependency>
